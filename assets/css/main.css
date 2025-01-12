@@ -7,6 +7,224 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
+
+
+
+
+.team img {
+    width: 300px; /* Cambia este valor para ajustar el ancho */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 50%; /* Hace que las imágenes sean circulares, si lo deseas */
+    margin: 10px; /* Espaciado alrededor de las imágenes */
+    display: inline-block; /* Asegura que las imágenes estén alineadas horizontalmente */
+}
+
+
+
+
+
+
+
+
+
+/* esto es la pagina del formulario */
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .newsletter-form {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .newsletter-form input[type="submit"] {
+            background-color: #ff6f91; /* Color de la web */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .newsletter-form input[type="submit"]:hover {
+            background-color: #ff4d6d;
+        }
+        .newsletter-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        .newsletter-container h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .newsletter-container p {
+            color: #666;
+        }
+        .newsletter-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .newsletter-container label {
+            margin-top: 10px;
+            color: #333;
+        }
+        .newsletter-container input[type="text"],
+        .newsletter-container input[type="email"] {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .newsletter-container input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #005f64;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .newsletter-container input[type="submit"]:hover {
+            background-color: #00484d;
+        }
+    </style>
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8d7da; /* Fondo rosa suave */
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: transparent; /* Sin fondo adicional */
+}
+
+.team-member {
+    text-align: center;
+    width: 200px;
+    background: transparent; /* Fondo transparente */
+    border: none; /* Eliminar bordes */
+    padding: 10px;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Imagen redondeada */
+    margin-bottom: 10px;
+    object-fit: cover;
+    border: 2px solid #ddd; /* Añadir borde ligero */
+}
+
+.team-member h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #666;
+}
+
+.team-member a {
+    text-decoration: none;
+    color: #e63946; /* Rojo elegante para el enlace */
+}
+
+.team-member a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilo principal del sitio */
+body {
+    background-color: #fefefe;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Centrar barra de navegación */
+.nav-centered {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-centered li {
+    margin: 0 15px;
+}
+
+.nav-centered a {
+    text-decoration: none;
+    color: #585858;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-centered a:hover {
+    color: #f2849e;
+}
+
+/* Estilo del texto debajo del video */
+.custom-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.2em;
+    color: #444;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Estilo de los artículos */
+section.tiles article {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section.tiles article:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -32,6 +250,35 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+
+
+video {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centrar el video */
+}
+
+
+	#footer {
+  padding: 20px; /* Espaciado interno dentro del footer */
+  margin: 0px; /* Espaciado externo alrededor del footer */
+  background-color: #f5f5f5; /* Fondo opcional para visualizar el margen */
+ 
+}
+
+#footer .inner {
+  max-width: 1200px; /* Ancho máximo para el contenido del footer */
+  margin: 0 auto; /* Centrar horizontalmente el contenido */
+}
+
+
+
+
+
+
 
 ol, ul {
 	list-style: none;
@@ -117,7 +364,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Georgia", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
