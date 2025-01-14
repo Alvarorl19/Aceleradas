@@ -86,7 +86,7 @@
         }
         .newsletter-container label {
             margin-top: 10px;
-            color: #333;
+            color: #ff6f91;
         }
         .newsletter-container input[type="text"],
         .newsletter-container input[type="email"] {
@@ -99,7 +99,7 @@
         .newsletter-container input[type="submit"] {
             margin-top: 20px;
             padding: 10px;
-            background-color: #005f64;
+            background-color: #ff6f91;
             color: #fff;
             border: none;
             border-radius: 4px;
